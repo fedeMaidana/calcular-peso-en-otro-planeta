@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url(../pics/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-size: 62.5%;
+}
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: center;
+    width: 45vw;
+}
+label{
+    color:rgb(223, 223, 223);
+    font: 700 1.5rem monospace;
+    margin-bottom: 5px;
+}
+input[type= text], input[type= button], select{
+    border: 0;
+    outline: none;
+}
+input[type= text], select{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(245, 71, 169);
+    border-radius: 5px;
+    color: rgb(223, 223, 223);
+    font: 1rem monospace;
+    margin-bottom: 5px;
+    text-align: center;
+}
+input[type= text]{
+    height: 30px;
+}
+select{
+    border-bottom: 3px solid rgb(245, 71, 169);
+    height: 30px;
+}
+#buttonWeight{
+    background-color: rgb(245, 71, 169);
+    border-radius: 5px;
+    color: rgb(26, 26, 26);
+    cursor: pointer;
+    font: 700 1rem monospace;
+    height: 25px;
+    margin-top: 10px;
+    width: 15%;
+}
+#buttonWeight:hover{
+    background-color: rgb(253, 110, 191);
+}
+#result{
+    color: rgb(133, 197, 222);
+    font: 1.4rem monospace;
+    margin-top: 10px;
+}
+strong{
+    color: rgb(245, 71, 169);
+}

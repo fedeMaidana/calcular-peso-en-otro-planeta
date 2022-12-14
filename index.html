@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Calculamos cual seria nuestro peso dependiendo en que planeta de nuestro sistema solar estemos">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Calcular Peso</title>
+</head>
+<body>
+    <form name="formWeight">
+        <label for="userWeight">
+            ¿Cual es tu peso? <input type="text" id="userWeight" placeholder="Ingresa tu peso">
+        </label>
+        <label for="planets">
+            Selecciona un planeta <select name="planets" id="planets">
+                <option>Selecciona una opción</option><!--0-->
+                <option>-------------------------------</option><!--1-->
+                <option>Mercurio</option><!--2-->
+                <option>Venus</option><!--3-->
+                <option>Marte</option><!--4-->
+                <option>Júpiter</option><!--5-->
+                <option>Saturno</option><!--6-->
+                <option>Urano</option><!--7-->
+                <option>Neptuno</option><!--8-->
+            </select>
+        </label>
+        <input type="button" value="calcular" id="buttonWeight">
+    </form>
+    <p id="result"></p>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
